@@ -2,7 +2,7 @@
 #!desc= 屏蔽微信阅读
 #!homepage=https://github.com/lwklove/weread
 #!author= 框框
-#!icon= https://raw.githubusercontent.com/lwklove/weread/master/Icon/weread.web
+#!icon= https://raw.githubusercontent.com/lwklove/weread/main/Icon/weread.webp
 
 [Rule]
 DOMAIN,ii.gdt.qq.com,REJECT
