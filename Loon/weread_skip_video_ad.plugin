@@ -8,4 +8,4 @@
 hostname = ii.gdt.qq.com
 
 [Script]
-http-response ^https:\/\/(ii.\.gdt\.qq\.com\/gdt_inner_view$) script-path=https://raw.githubusercontent.com/lwklove/weread/main/Loon/weread_skip_video_ad.js, requires-body=true, timeout=10, tag=wereadskipvideoad
+http-response /https:\/\/ii\.gdt\.qq\.com\/gdt_inner_view\?(.*?)$/ script-path=https://raw.githubusercontent.com/lwklove/weread/main/Loon/weread_skip_video_ad.js, requires-body=true, timeout=10, tag=wereadskipvideoad
