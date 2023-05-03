@@ -1,0 +1,12 @@
+#!name= 微信阅读去除视频广告
+#!desc= 屏蔽微信阅读
+#!homepage=https://github.com/lwklove/weread
+#!author= 框框
+#!icon= https://raw.githubusercontent.com/lwklove/weread/master/Icon/weread.web
+
+[Rule]
+DOMAIN,ii.gdt.qq.com,REJECT
+# DOMAIN-SUFFIX,ii.gdt.qq.com,REJECT
+
+[Mitm]
+hostname = ii.gdt.qq.com
