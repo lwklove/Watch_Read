@@ -4,10 +4,6 @@
 #!author= 框框
 #!icon= https://raw.githubusercontent.com/lwklove/weread/main/Icon/weread.webp
 
-# [Rule]
-# DOMAIN,ii.gdt.qq.com,REJECT
-# DOMAIN-SUFFIX,ii.gdt.qq.com,REJECT
-
 [Mitm]
 hostname = ii.gdt.qq.com
 
